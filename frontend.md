@@ -1,13 +1,14 @@
 # Hahow Frontend Engineer 徵才小專案
 
-這是一個小型的徵才專案，會需要你使用JS Framework 和 Backend API 所提供的資料，依照 Wireframe 來完成頁面。
+這是一個小型的徵才專案，會需要你使用 JS framework 和 backend API 所提供的資料，依照 wireframe 來完成頁面。
 
 
 ## 細部需求
 
 - 請參考 **wireframe** 及 **頁面需求** 實作這個專案
-- 請使用你習慣使用的 JS Framework e.g. Vue、Angular、React，如果沒有習慣使用的 framework，請盡量使用 React
+- 請使用你習慣使用的 JS framework e.g. Vue、Angular、React，如果沒有習慣使用的 framework，請盡量使用 React
 - 使用 git / GitHub 來做整個專案的版本控管
+- 請將小專案上傳到 GitHub， **不接受以 Dropbox 或信件夾帶壓縮檔的形式繳交作業**
 - 提供一份文件說明：
     - 我們該如何執行完成的 package
     - 專案的架構，Web 的架構邏輯
@@ -20,7 +21,6 @@
 - 程式的可讀性與可維護性
 - 使用 CSS framework
 - 任何你覺得可以讓網頁變得更 fancy 或是很酷的事情
-
 
 # 頁面需求
 
