@@ -7,7 +7,6 @@
 
 - 請參考 **wireframe** 及 **頁面需求** 實作這個專案
 - 請使用 React 進行開發
-- 請使用 Redux 或 React Context 管理狀態
 - 使用 git / GitHub 來做整個專案的版本控管
 - 請將小專案上傳到 GitHub， **不接受以 Dropbox 或信件夾帶壓縮檔的形式繳交作業**
 - 提供一份 README 文件說明：
