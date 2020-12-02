@@ -118,7 +118,7 @@ curl -H "Accept: application/json" -H "Content-Type: application/json" -H "Name:
 
 ```
 
-### Authenticated Single Heroes [GET] `/heroes/:heroId`
+### Authenticated Single Hero [GET] `/heroes/:heroId`
 
 **Request**
 
