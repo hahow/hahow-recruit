@@ -9,15 +9,14 @@
 [API Spec]
 
 - URL: https://swapi.dev/
-- swapi has rate limiting to prevent malicious abuse. Rate limiting is done via IP address and is currently limited to 10,000 API request per day. be no reason for hitting the rate limit.
-- No performance testing with swapi.
+- 相關的限制可以參考網站文件
 
 [Goal]
 
-- Please design an automation script to check:
-  - How many different species appears in film-6 (Revenge of the Sith) ? 有多少不同種族的人出現在第六部？
-  - Please list all the film names and sort the name by episode_id. 請依據電影集數去排序電影名字？
-  - Please find out all vehicles which max_atmosphering_speed is over 1000. 請幫我挑出電影裡所有的車輛，馬力超過１０００的。
+- 請設計一個 API 自動化程式並且驗證:
+  - 有多少不同種族的人出現在第六部？
+  - 請依據電影集數去排序電影名字？
+  - 請幫我挑出電影裡所有的車輛，馬力超過１０００的。
 
 ## 加分建議
 
@@ -32,7 +31,7 @@
 
 [Goal]
 
-- Please design an automation script to check:
-  - How many contributors in this project? and please find out their name
-  - Please Go into the frontend.md and check the "Wireframe" images is exist or not
-  - Who is the lastest commit person?
+- 請設計一個 UI 自動化程式並且驗證:
+  - 此專案裡有幾個合作者，並且分別列出他們的名字
+  - 請進入到 frontend.md 並且查看 "Wireframe" 的圖片是否存在
+  - 最後一個 commit 的人是誰
