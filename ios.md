@@ -33,5 +33,5 @@ iPhone 畫面示意 | iPad 畫面示意
 
 ## 交卷
 
-- 請下載或 fork Hahow iOS Engineer 面試題目初始專案（另開）。
+- 請下載或 fork Hahow iOS Engineer 面試題目初始專案（[repo 在此](https://github.com/hahow/iOS-recruit-project)）。
 - 請將成果上傳至 GitHub 並直接提供 repo 連結。
