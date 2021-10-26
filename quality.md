@@ -20,8 +20,6 @@
 
 - 程式的可讀性與可維護性
 - 任何你覺得很酷的事情
-- 利用 GraphQL 實作相同題目
-  - URL: https://graphql.org/swapi-graphql
 
 ### UI
 
