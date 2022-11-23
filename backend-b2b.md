@@ -20,7 +20,7 @@
   - 建立課程
   - 編輯課程
   - 刪除課程
-- 請將完成後的 API server 發佈到 Heroku 上
+- 請將完成後的 API server 發佈到 Heroku 或其他可以提供部署的服務上
 - 完成後的 API 需要有相對應的測試
 - 提供一份 README 文件說明
   - 我們該如何執行這個 server
