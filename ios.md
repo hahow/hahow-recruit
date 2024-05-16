@@ -5,7 +5,7 @@
 ## 技術規定
 
 - Deployment Target 為 iOS 15.0。
-- 請使用 Swift 和 Swift（或是 UIKit）開發。
+- 請使用 Swift 和 SwiftUI（或是 UIKit）開發。
 - 需同時支援 iPhone 和 iPad。
 - 可使用第三方 library。
 - 可使用 SPM 或任何第三方管理工具。
