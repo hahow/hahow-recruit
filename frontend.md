@@ -2,7 +2,6 @@
 
 這是一個小型的徵才專案，會需要你使用 JS framework 和 backend API 所提供的資料，依照 wireframe 來完成頁面。
 
-
 ## 細部需求
 
 - 請參考 **wireframe** 及 **頁面需求** 實作這個專案
@@ -22,7 +21,7 @@
 - 使用 CSS-in-JS library
 - 任何你覺得可以讓網頁變得更 fancy 或是很酷的事情
 
-# 頁面需求
+## 頁面需求
 
 - 整個專案會需要兩個頁面
   - Hero List Page (網址: `/heroes`)
@@ -37,18 +36,11 @@
 - "Hero Profile" 最下方有一個儲存按鈕，按下按鈕後，會將現在設定的能力值提交更新 server 上的資料 (API: `PATCH https://hahow-recruit.herokuapp.com/heroes/1/profile`)，送出的能力值總和必須與拿到的時候相同
 - Hero 能力值不能小於零
 
-## 最後
-
-當你完成的時候，請將你的 GitHub repo 連結 e-mail 給我們。
-
-同時我們也認為在程式開發的過程中溝通是很重要的，所以如果過程中你有任何問題，不論是看不懂我們所寫的文件，或是對於我們提供的 API 有疑問，都歡迎直接在 Slack Channel 和我們討論。
-
 ## Wireframe
 
 ![](assets/hero-list-page.png)
 
 ![](assets/hero-profile-page.png)
-
 
 ## 我們所提供的資料及 API
 
@@ -73,7 +65,7 @@ curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET ht
     "id": "2",
     "name": "Thor",
     "image": "http://x.annihil.us/u/prod/marvel/i/mg/5/a0/537bc7036ab02/standard_xlarge.jpg"
-  },
+  }
   // ...
 ]
 ```
@@ -128,3 +120,9 @@ curl -X PATCH -H "Content-Type: application/json" -d '{ "str": 6, "int": 7, "agi
 ```plain
 OK
 ```
+
+## 最後
+
+當你完成的時候，請將你的 GitHub repo 連結 e-mail 給我們。
+
+同時我們也認為在程式開發的過程中溝通是很重要的，所以如果過程中你有任何問題，不論是看不懂我們所寫的文件，或是對於我們提供的 API 有疑問，都歡迎直接在 Slack Channel 和我們討論。
