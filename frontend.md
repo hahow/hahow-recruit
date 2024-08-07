@@ -1,30 +1,33 @@
 # Hahow Frontend Engineer 徵才小專案
 
-這是一個小型的徵才專案，會需要你使用 JS framework 和 backend API 所提供的資料，依照 wireframe 來完成頁面。
+我們希望透過這份專案了解你的程式設計、程式碼品質、文件撰寫、溝通等等能力，期待你和我們分享實作這份小專案的各種考量與設計，不僅是完成需求而已。
+請閱讀以下的需求完成這份小專案。
 
+## 必要項目
 
-## 細部需求
-
-- 請參考 **wireframe** 及 **頁面需求** 實作這個專案
+- 請遵守 **Wireframe** 及 **頁面需求** 實作這個專案
 - 請使用 React 進行開發
 - 使用 git / GitHub 來做整個專案的版本控管
-- 請將小專案上傳到 GitHub， **不接受以 Dropbox 或信件夾帶壓縮檔的形式繳交作業**
-- 提供一份 README 文件說明：
-  - 我們該如何執行完成的 package
-  - 專案的架構、Web 的架構邏輯
-  - 你對於所有使用到的第三方 library 的理解，以及他們的功能簡介
+- 請將小專案上傳到 GitHub， **不接受以雲端硬碟或信件夾帶壓縮檔的形式繳交作業**
+- repo 中需要 **包含一份 README 文件**，說明以下項目：
+  - 該如何執行完成的專案
+  - 專案的資料夾架構、Application 的邏輯架構，說明你的設計理念
+  - 對於所有使用到的第三方 library 的理解，以及為何想在這個專案中使用它
   - 你在程式碼中寫註解的原則，遇到什麼狀況會寫註解
   - 在這份專案中你遇到的困難、問題，以及解決的方法
 
-## 加分建議
+## 加分項目
 
-- 程式的可讀性與可維護性
 - 使用 CSS-in-JS library
-- 任何你覺得可以讓網頁變得更 fancy 或是很酷的事情
+- 任何讓專案更加完整的功能
+- 任何可提升程式碼品質（可讀性、可維護性、效能等）的做法
+- 任何你覺得可以讓網頁更 UX friendly 的功能
 
-# 頁面需求
+若有實作加分項目，也請在 README 文件中說明。
 
-- 整個專案會需要兩個頁面
+## 頁面需求
+
+- 整個專案會需要兩個頁面，當使用者重新整理或直接輸入 URL 都需正常運作
   - Hero List Page (網址: `/heroes`)
   - Hero Profile Page (網址: `/heroes/:heroId`)
 - "Hero List Page"、"Hero Profile Page" 都有一個 "Hero List" 在頁面上水平置中 (API: `GET https://hahow-recruit.herokuapp.com/heroes`)
@@ -37,18 +40,11 @@
 - "Hero Profile" 最下方有一個儲存按鈕，按下按鈕後，會將現在設定的能力值提交更新 server 上的資料 (API: `PATCH https://hahow-recruit.herokuapp.com/heroes/1/profile`)，送出的能力值總和必須與拿到的時候相同
 - Hero 能力值不能小於零
 
-## 最後
-
-當你完成的時候，請將你的 GitHub repo 連結 e-mail 給我們。
-
-同時我們也認為在程式開發的過程中溝通是很重要的，所以如果過程中你有任何問題，不論是看不懂我們所寫的文件，或是對於我們提供的 API 有疑問，都歡迎直接在 Slack Channel 和我們討論。
-
 ## Wireframe
 
 ![](assets/hero-list-page.png)
 
 ![](assets/hero-profile-page.png)
-
 
 ## 我們所提供的資料及 API
 
@@ -62,19 +58,13 @@ curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET ht
 
 **Response 200**
 
-```jsonc
+```
 [
   {
-    "id": "1",
-    "name": "Daredevil",
-    "image": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/537ba6d49472b/standard_xlarge.jpg"
-  },
-  {
-    "id": "2",
-    "name": "Thor",
-    "image": "http://x.annihil.us/u/prod/marvel/i/mg/5/a0/537bc7036ab02/standard_xlarge.jpg"
-  },
-  // ...
+    "id": string
+    "name": string
+    "image": string
+  }
 ]
 ```
 
@@ -88,11 +78,11 @@ curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET ht
 
 **Response 200**
 
-```json
+```
 {
-  "id": "1",
-  "name": "Daredevil",
-  "image": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/537ba6d49472b/standard_xlarge.jpg"
+  "id": string
+  "name": string
+  "image": string
 }
 ```
 
@@ -106,12 +96,12 @@ curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET ht
 
 **Response 200**
 
-```json
+```
 {
-  "str": 2,
-  "int": 7,
-  "agi": 9,
-  "luk": 7
+  "str": number
+  "int": number
+  "agi": number
+  "luk": number
 }
 ```
 
@@ -128,3 +118,9 @@ curl -X PATCH -H "Content-Type: application/json" -d '{ "str": 6, "int": 7, "agi
 ```plain
 OK
 ```
+
+## 最後
+
+當你完成的時候，請將你的 GitHub repo 連結 e-mail 給我們。
+
+同時我們也認為在程式開發的過程中溝通是很重要的，所以如果過程中你有任何問題，不論是看不懂我們所寫的文件，或是對於我們提供的 API 有疑問，都歡迎直接在 Slack Channel 和我們討論。
