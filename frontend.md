@@ -58,19 +58,13 @@ curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET ht
 
 **Response 200**
 
-```jsonc
+```
 [
   {
-    "id": "1",
-    "name": "Daredevil",
-    "image": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/537ba6d49472b/standard_xlarge.jpg"
-  },
-  {
-    "id": "2",
-    "name": "Thor",
-    "image": "http://x.annihil.us/u/prod/marvel/i/mg/5/a0/537bc7036ab02/standard_xlarge.jpg"
+    "id": string
+    "name": string
+    "image": string
   }
-  // ...
 ]
 ```
 
@@ -84,11 +78,11 @@ curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET ht
 
 **Response 200**
 
-```json
+```
 {
-  "id": "1",
-  "name": "Daredevil",
-  "image": "http://i.annihil.us/u/prod/marvel/i/mg/6/90/537ba6d49472b/standard_xlarge.jpg"
+  "id": string
+  "name": string
+  "image": string
 }
 ```
 
@@ -102,12 +96,12 @@ curl -H "Accept: application/json" -H "Content-Type: application/json" -X GET ht
 
 **Response 200**
 
-```json
+```
 {
-  "str": 2,
-  "int": 7,
-  "agi": 9,
-  "luk": 7
+  "str": number
+  "int": number
+  "agi": number
+  "luk": number
 }
 ```
 
