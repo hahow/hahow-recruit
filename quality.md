@@ -11,7 +11,7 @@
 
 ### API
 
-- URL: [https://swapi.dev/](https://swapi.info/)
+- URL: https://swapi.info/
 - 相關的限制可以參考網站文件
 
 #### Goal
